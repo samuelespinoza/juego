@@ -1,0 +1,14 @@
+{
+    "name": "Juego"
+  , "description": "Juego Frameworks"
+  , "version": "1.0.0"
+  , "dependencies": {
+        "express": "2.5.5",
+        "jade": "0.16.4",
+        "socket.io": "0.9.1-1"
+    }
+  , "engines": {
+    "node": "0.6.12",
+    "npm": "1.1.4"
+  }
+}

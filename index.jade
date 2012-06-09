@@ -1,0 +1,45 @@
+doctype 5
+html
+  head
+    title='Cauchos - La leyenda del arból de Guacarí'
+    link(href='css/estilo.css', rel='stylesheet')
+    script(src='/socket.io/socket.io.js')
+    script(src='lib/melonJS-0.9.3-min.js')
+    script(src='http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js')
+    script(src='js/jquery.cycle.all.js')
+    script(src='js/principal.js')
+    script(src='js/tooltips.js')
+    
+  body(bgcolor='#333333')
+    a(href='https://github.com/manuelvergara')
+      img(style='position: absolute; top: 0; right: 0; border: 0;', src='https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png', alt='Fork me on GitHub')
+    center
+      div.tooltip
+        h2 'Cauchos, La leyenda del arbol de Guacari'
+        p
+          'Caucho es un juego creado con el motor de juegos HTML5 por Manuel Vergara y Samuel Espinoza, en el se pretende mostrar un poco de la historia de uno de los municipios del Valle del Cauca.'
+        p
+          'Si te ha gustado el juego puedes ver la documentacion en GitHub o mas info en <b>alejovergara.com</b>.'
+        p
+          'Santiago de Cali, Colombia. 2012. Todos los derechos reservados.'
+      #caucho_pj
+      #info(style='width: 640px;')
+        #fps(style='float: right;')
+          font(color='#FFFFFF', style='font-size: 10px; font-family: Courier New')
+      #container
+        #jsapp
+          script(src='js/main.js')
+          script(src='js/gameObj.js')
+      #slideshow
+        img(src='image/sponsor01.png')
+        img(src='image/sponsor02.png')
+        #history
+          img(src='image/historia1.png')
+        #history2
+          img(src='image/historia2.png')
+        #history3
+          img(src='image/historia3.png')
+      #footer
+        br
+        br
+        'Cauchos - Frameworks, Universidad Santiago de Cali, Manuel Alejandro Vergara, Samuel Espinoza. 2012'

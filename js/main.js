@@ -39,6 +39,10 @@ var g_resources = [{
      name: "gripe_run_right",
     type: "image",
     src: "data/sprite/gripe_run_right.png"		
+},{
+     name: "caucho_jump",
+    type: "image",
+    src: "data/sprite/caucho_jump.png"		
 },
 {
     name: "area01_bkg0",
@@ -46,9 +50,9 @@ var g_resources = [{
     src: "data/area01_parallax/area01_bkg0.png"
 },	
 {
-    name: "tile2",
+    name: "area01_bkg0_1",
     type: "image",
-    src: "data/GUI/tile2.png"
+    src: "data/area01_parallax/area01_bkg0_1.png"
 },	
 {
     name: "area01_bkg1",
@@ -74,6 +78,37 @@ var g_resources = [{
     type: "image",
     src: "data/sprite/caucho_indio.png"
 }, 
+
+// our enemty entity
+{
+    name: "caucho_jefe",
+    type: "image",
+    src: "data/sprite/caucho_jefe.png"
+}, 
+// our Info Box
+{
+    name: "infobox",
+    type: "image",
+    src: "data/sprite/infobox.png"
+},
+// our Info Box
+{
+    name: "infobox2",
+    type: "image",
+    src: "data/sprite/infobox.png"
+},
+// our Info Box
+{
+    name: "infobox3",
+    type: "image",
+    src: "data/sprite/infobox.png"
+},
+// our Info Box
+{
+    name: "infobox4",
+    type: "image",
+    src: "data/sprite/infobox.png"
+},
 // game font
 {
     name: "32x32_font",
@@ -154,7 +189,13 @@ var jsApp	=
    me.entityPool.add("mainPlayer", PlayerEntity);
    me.entityPool.add("CoinEntity", CoinEntity);
    me.entityPool.add("EnemyEntity", EnemyEntity);         
-   me.entityPool.add("EnemyEntity_2", EnemyEntity);
+   me.entityPool.add("EnemyEntity2", EnemyEntity2);
+   me.entityPool.add("EnemyEntity3", EnemyEntity3);
+   me.entityPool.add("infobox", InfoboxEntity);
+    me.entityPool.add("infobox2", InfoboxEntity2);
+	me.entityPool.add("infobox3", InfoboxEntity3);
+	me.entityPool.add("infobox4", InfoboxEntity4);
+	me.entityPool.add("finjuego", finEntity);
    me.input.bindKey(me.input.KEY.LEFT,  "left");
    me.input.bindKey(me.input.KEY.RIGHT, "right");
    me.input.bindKey(me.input.KEY.SPACE,     "jump", true);

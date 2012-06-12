@@ -2,19 +2,57 @@
 
 #jsapp{
 	border:5px solid #222;
-	display: none;
+	display: none; 
     width:640px;
     height:480px;
 	box-shadow:0 4px 10px #000;
 
 }
 
+#fin{
+	background:url(../image/continuara.png);
+    width:640px;
+    height:480px;
+}
+
+
 #caucho_pj{
 	width: 100px;
 	height: 100px;
 	position:absolute;
 	background: url(../image/caucho_pj.png) center;
-	margin: 390px 0 0 250px;
+	margin: 390px 0 250px;
+	margin-left: -105px;
+	
+	}
+	
+
+#info_juego{
+	width: 200px;
+	height: 300px;
+	position:absolute;
+	display: none;
+	background: #000;
+	margin: 60px 680px 250px;
+	-webkit-border-radius: 9px;
+-moz-border-radius: 9px;
+border-radius: 9px;
+color:#FFF;
+font-family:Verdana, Geneva, sans-serif;
+font-size:10px;
+	}
+	
+#info_juego p{
+	padding: 10px;
+	
+	}
+	
+#caucho_pregun{
+	width: 100px;
+	height: 100px;
+	position:absolute;
+	background: url(../image/caucho_pregun.png) center;
+	margin: 390px 650px 390px;
 	
 	}
 	
@@ -24,6 +62,7 @@ width: 290px;
 height: 300px;
 position: absolute;
 margin: 90px 50px;
+margin-left: -320px;
 z-index: 1;
 display: none;
 opacity: 0;
